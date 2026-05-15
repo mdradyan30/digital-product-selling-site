@@ -50,7 +50,7 @@ export function AppSidebar() {
                       to={item.url}
                       end={item.url === "/"}
                       className="flex items-start gap-3 px-3 py-2.5 rounded-lg hover:bg-muted/50 transition-colors"
-                      activeClassName="bg-primary text-primary-foreground hover:bg-primary/90"
+                      activeClassName="bg-primary text-primary-foreground hover:bg-primary/95"
                     >
                       <item.icon className="h-5 w-5 mt-0.5 shrink-0" />
                       {!collapsed && (
